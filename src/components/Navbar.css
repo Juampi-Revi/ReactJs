@@ -1,0 +1,21 @@
+nav{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    width: 100%;
+}
+ul{
+    display:flex;
+    list-style:none;
+}
+li{
+    margin-left: 3rem;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color: orangered;
+    font-weight: bold;
+}
