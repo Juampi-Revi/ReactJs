@@ -20,3 +20,9 @@ a:hover{
     color: orangered;
     font-weight: bold;
 }
+i{
+    font-size: 1.5rem;
+    cursor: pointer;
+};
+
+

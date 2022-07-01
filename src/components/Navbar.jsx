@@ -1,22 +1,15 @@
 import './Navbar.css';
+import ItemsList from './ItemsListContainer';
+import IconCart from './CardWidget';
 function NavBar() {
     return (  
         <nav>
             <h1>Logo</h1>
-            <ul>
-                <li>
-                    <a href="/#">Home</a>
-                </li>
-                <li>
-                    <a href="/#">Productos</a>
-                </li>
-                <li>
-                    <a href="/#">Contacto</a>
-                </li>
-            </ul>
+            <ItemsList name= "Home"/>
+            <IconCart/>
             <button>Login</button>
         </nav>
     );
 }
 
-export default NavBar; ;
+export default NavBar; 
