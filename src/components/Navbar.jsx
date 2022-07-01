@@ -14,9 +14,7 @@ function NavBar() {
                     <a href="/#">Contacto</a>
                 </li>
             </ul>
-            <a href="/#">
-                <span></span>
-            </a>
+            <button>Login</button>
         </nav>
     );
 }
