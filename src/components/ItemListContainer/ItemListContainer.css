@@ -1,0 +1,13 @@
+.titulo{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+h1{
+    margin: 3rem;
+    font-size:3rem;
+    text-transform: uppercase;
+}
