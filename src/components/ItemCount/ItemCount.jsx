@@ -6,12 +6,7 @@ import { useState } from 'react';
 function ItemCount (){
     let stock = 5;
     const [input, setinput] =useState(0);
-    const sumarArticulo = () =>{
-        if(input < stock){
-            setinput(input + 1);
-        } else {
-            alert('NO HAY STOCK SUFICIENTE')
-        }
+    const sumarArticulo = () =>{ input < stock ? setinput(input + 1): alert('NO HAY STOCK SUFICIENTE')
     };
     const restarArticulo = () =>{
         if(input > 0){
