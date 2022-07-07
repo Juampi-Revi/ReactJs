@@ -9,6 +9,8 @@ function ItemCount (){
     const sumarArticulo = () =>{
         if(input < stock){
             setinput(input + 1);
+        } else {
+            alert('NO HAY STOCK SUFICIENTE')
         }
     };
     const restarArticulo = () =>{
