@@ -5,7 +5,7 @@ function ItemListContainer () {
     return (
         <div className='titulo'>
             <h1>Mi Tienda</h1>
-            <ItemCount/>
+            <ItemCount stock = '5'/>
         </div>
     )
 };

@@ -3,8 +3,7 @@ import Button from '../Button/Button';
 import Pantalla from '../Pantalla/Pantalla';
 import { useState } from 'react';
 
-function ItemCount (){
-    let stock = 5;
+function ItemCount ({ stock }){
     const [input, setinput] =useState(0);
     const sumarArticulo = () =>{ input < stock ? setinput(input + 1): alert('NO HAY STOCK SUFICIENTE')
     };
