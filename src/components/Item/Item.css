@@ -1,0 +1,28 @@
+.card-producto{
+    width: 30rem;
+    height: 50rem;
+    border: 0.1rem solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin: 1rem;
+}
+.nombre-producto{
+    font-size:3rem;
+    padding: 1rem;
+}
+.imagen-producto{
+    width: 25rem;
+}
+.boton-producto{
+    padding: 1rem;
+    width: 50%;
+    font-size: 1.5rem;
+    border-radius:1.5rem;
+}
+.precio-producto{
+    font-size: 3rem;
+    color: red;
+    padding: 1rem;
+}

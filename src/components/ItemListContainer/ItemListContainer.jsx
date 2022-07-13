@@ -10,37 +10,44 @@ function ItemListContainer () {
         title: 'Harina Viada 0000',
         price: 2450,
         stock: 200,
-        img: require('./HarinaViada0000.png')},
+        img: require('../assets/HarinaViada0000.png')  
+    },
         {id: 2,
         title: 'Harina Viada 000',
         price: 2100,
         stock: 80,
-        img: require('./HarinaViada000.png')},
+        img: require('../assets/HarinaViada000.png')
+    },
         {id: 3,
         title: 'Margarina Hurricane Hojaldre ',
         price: 3900 ,
         stock: 150,
-        img: require('./HarinaViada000.png')},
+        img: require('../assets/MargarinaHojaldreHurricane.png')
+    },
         {id: 4,
-        title: 'Margarina Margadam Masa',
-        price: 2250,
+        title: 'Margarina Masa Cordobesa',
+        price: 4250,
         stock: 300,
-        img: require('./HarinaViada000.png')},
+        img: require('../assets/MargarinaMasaLaCordobesa.png') 
+    },
         {id: 5,
         title: 'Dulce de Batata Serra',
         price: 960,
         stock: 40,
-        img: require('./HarinaViada000.png')},
+        img: require('../assets/DulcedeBatataSerra.png')
+    },
         {id: 6,
-        title: 'Dulce de Membrillo Serra',
+        title: 'Dulce de Leche La Chakra',
         price: 1100,
         stock: 20,
-        img: require('./HarinaViada000.png')},
+        img: require('../assets/DulcedeLecheLaChakra.png')
+    },
         {id: 7,
-        title: 'Coco Rallado',
+        title: 'Azucar Bella Vista',
         price: 1250,
         stock: 600,
-        img:require('./HarinaViada000.png') }
+        img: require('../assets/AzucarBellaVista.png')
+    }
     ];
     const [items, setitems] = useState([]);
 
@@ -62,10 +69,14 @@ function ItemListContainer () {
 )
     
     return (
-        <div className='titulo'>
-            <h1>Mi Tienda</h1>
-            <ItemCount stock = '5'/>
-            <ItemList data = { items } />
+        <div className= 'contenedor-body'>
+            <div className='titulo'>
+                <h1>Mi Tienda</h1>
+                <ItemCount stock = '5'/>
+            </div>
+            <div className='contenedor-items'>
+                <ItemList data = { items } />
+            </div>
         </div>
     )
 };

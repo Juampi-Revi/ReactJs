@@ -1,3 +1,9 @@
+.contenedor-body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
 .titulo{
     width: 100%;
     text-align: center;
@@ -10,4 +16,11 @@ h1{
     margin: 3rem;
     font-size:3rem;
     text-transform: uppercase;
+}
+.contenedor-items{
+    width: 80%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }

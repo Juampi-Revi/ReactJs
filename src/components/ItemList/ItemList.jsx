@@ -5,7 +5,7 @@ function ItemList ({ data }){
     console.log(data);
     return (
         data.map(
-            el => <Item key = {data.id} name = {data.title} imagen = {data.imagen} precio = {data.precio} stock = {data.stock}/>
+            el => <Item key = {el.id} name = {el.title} imagen = {el.img} precio = {el.price} stock = {el.stock}/>
         ) 
     )
 };
