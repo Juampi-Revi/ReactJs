@@ -1,0 +1,51 @@
+[
+    {
+        'id': '1',
+        'title': 'Harina Viada 0000',
+        'price': '2450',
+        'stock': '200',
+        'img': 'require('../assets/HarinaViada0000.png')'  
+    },
+    {
+        'id': '2',
+        'title': 'Harina Viada 000',
+        'price': '2100',
+        'stock': '80',
+        'img': 'require('../assets/HarinaViada000.png')'
+    },
+    {
+        'id': '3',
+        'title': 'Margarina Hurricane Hojaldre ',
+        'price': '3900' ,
+        'stock': '150',
+        'img': 'require('../assets/MargarinaHojaldreHurricane.png')'
+    },
+    {
+        'id': '4',
+        'title': 'Margarina Masa Cordobesa',
+        'price': '4250',
+        'stock': '300',
+        'img': 'require('../assets/MargarinaMasaLaCordobesa.png')'
+    },
+    {
+        'id': '5',
+        'title': 'Dulce de Batata Serra',
+        'price': '960',
+        'stock': '40',
+        'img': 'require('../assets/DulcedeBatataSerra.png')'
+    },
+    {
+        'id': '6',
+        'title': 'Dulce de Leche La Chakra',
+        'price': '1100',
+        'stock': '20',
+        'img': 'require('../assets/DulcedeLecheLaChakra.png')'
+},
+    {
+        'id':'7',
+        'title': 'Azucar Bella Vista',
+        'price': '1250',
+        'stock': '600',
+        'img': 'require('../assets/AzucarBellaVista.png')'
+    }
+]

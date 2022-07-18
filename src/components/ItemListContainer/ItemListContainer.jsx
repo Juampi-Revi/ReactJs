@@ -2,6 +2,7 @@ import './ItemListContainer.css';
 import ItemCount from '../ItemCount/ItemCount';
 import React, { useState, useEffect } from 'react';
 import ItemList from '../ItemList/ItemList';
+import ItemDetailsContainer from '../ItemDetailsContainer/ItemDetailsContainer';
 
 
 function ItemListContainer () {
@@ -10,7 +11,9 @@ function ItemListContainer () {
         title: 'Harina Viada 0000',
         price: 2450,
         stock: 200,
-        img: require('../assets/HarinaViada0000.png')  
+        img: require('../assets/HarinaViada0000.png'),
+        categoria: 'Harina',
+        detalles: 'Esta harina tiene un elevado contenido de gluten y aditivos que aseguran un desarrollo normal en los distintos procesos de panificación logrando productos de elevado volumen específico, corteza crocante y buen color; migas de estructura uniforme que conservan la frescura inicial por más tiempo.'
     },
         {id: 2,
         title: 'Harina Viada 000',
@@ -76,6 +79,7 @@ function ItemListContainer () {
             </div>
             <div className='contenedor-items'>
                 <ItemList data = { items } />
+                <ItemDetailsContainer data = { items } />
             </div>
         </div>
     )
